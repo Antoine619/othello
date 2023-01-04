@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\n\ Represents\ a\ coordinate\ pair\ on\ the\ game\ board\n
+comment1.params=row\ col
+comment1.target=Position(int,\ int)
+comment2.params=
+comment2.target=int\ getRow()
+comment3.params=
+comment3.target=int\ getCol()
+comment4.params=vector
+comment4.target=com.mrjaffesclass.othello.Position\ translate(com.mrjaffesclass.othello.Position)
+comment5.params=
+comment5.target=boolean\ isOffBoard()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

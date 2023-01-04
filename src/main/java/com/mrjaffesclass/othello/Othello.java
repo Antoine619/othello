@@ -3,7 +3,7 @@
  * Copyright 2017 Roger Jaffe
  * All rights reserved
  */
-package com.mrjaffesclass.othello;
+package src.main.java.com.mrjaffesclass.othello;
 
 /**
  * Othello class project competition

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TestPlayer
+comment0.text=\n\ Test\ player\n
+comment1.params=color
+comment1.target=TestPlayer(int)
+comment1.text=\n\ Constructor\n\ @param\ name\ Player's\ name\n\ @param\ color\ Player\ color\:\ one\ of\ Constants.BLACK\ or\ Constants.WHITE\n
+comment2.params=board
+comment2.target=Position\ getNextMove(Board)
+comment2.text=\n\n\ @param\ board\n\ @return\ The\ player's\ next\ move\n
+comment3.params=board\ positionToCheck
+comment3.target=boolean\ isLegalMove(Board,\ Position)
+comment3.text=\n\ Is\ this\ a\ legal\ move?\n\ @param\ player\ Player\ asking\n\ @param\ positionToCheck\ Position\ of\ the\ move\ being\ checked\n\ @return\ True\ if\ this\ space\ is\ a\ legal\ move\n
+comment4.params=board\ position\ direction\ count
+comment4.target=boolean\ step(Board,\ Position,\ Position,\ int)
+comment4.text=\n\ Traverses\ the\ board\ in\ the\ provided\ direction.\ Checks\ the\ status\ of\n\ each\ space\:\ \n\ a.\ If\ it's\ the\ opposing\ player\ then\ we'll\ move\ to\ the\ next\n\ \ \ \ space\ to\ see\ if\ there's\ a\ blank\ space\n\ b.\ If\ it's\ the\ same\ player\ then\ this\ direction\ doesn't\ represent\n\ \ \ \ a\ legal\ move\n\ c.\ If\ it's\ a\ blank\ AND\ if\ it's\ not\ the\ adjacent\ square\ then\ this\n\ \ \ \ direction\ is\ a\ legal\ move.\ Otherwise,\ it's\ not.\n\ \n\ @param\ player\ \ Player\ making\ the\ request\n\ @param\ position\ Position\ being\ checked\n\ @param\ direction\ Direction\ to\ move\n\ @param\ count\ Number\ of\ steps\ we've\ made\ so\ far\n\ @return\ True\ if\ we\ find\ a\ legal\ move\n
+comment5.params=board
+comment5.target=java.util.ArrayList\ getLegalMoves(Board)
+comment5.text=\n\ Get\ the\ legal\ moves\ for\ this\ player\ on\ the\ board\n\ @param\ board\n\ @return\ True\ if\ this\ is\ a\ legal\ move\ for\ the\ player\n
+numComments=6

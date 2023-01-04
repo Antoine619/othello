@@ -3,7 +3,7 @@
  * All rights reserved
  */
 
-package com.mrjaffesclass.othello;
+package src.main.java.com.mrjaffesclass.othello;
 import java.awt.Point;
 /**
  * Represents a coordinate pair on the game board

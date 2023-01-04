@@ -1,4 +1,4 @@
-package com.mrjaffesclass.othello;
+package src.main.java.com.mrjaffesclass.othello;
 
 import java.util.concurrent.TimeUnit;
 

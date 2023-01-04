@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\n\ Game\ controller\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=player1\ player2
+comment1.target=Controller(Player,\ Player)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Controller\n\ @param\ player1\ Player\ 1\n\ @param\ player2\ Player\ 2\n
+comment2.params=
+comment2.target=void\ displayMatchup()
+comment2.text=\n\ Displays\ the\ match\ up\ with\ the\ player\ names\n
+comment3.params=
+comment3.target=int\ run()
+comment3.text=\n\ Run\ the\ game\ with\ the\ two\ players.\ \ Player\ 1\ BLACK\ always\ goes\ first\n\ @return\ Return\ code\ for\ the\ game\n
+numComments=4

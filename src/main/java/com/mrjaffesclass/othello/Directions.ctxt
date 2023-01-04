@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Directions
+comment0.text=\n\ Set\ up\ HashMap\ with\ the\ compass\ rose\ directions\ and\ \n\ pair\ with\ a\ vector\ that\ will\ implement\ the\ change\ \n\ in\ position\n\ \n\ @author\ Mr.\ Jaffe\n\ @version\ 1.0\n
+comment1.params=compassPoint
+comment1.target=Position\ getVector(java.lang.String)
+comment1.text=\n\ Gets\ the\ requested\ direction\ vector\n\ @param\ compassPoint\ Direction\ whose\ vector\ we\ want\ to\ retrieve\n\ @return\ Direction\ vector\n
+comment2.params=
+comment2.target=java.lang.String[]\ getDirections()
+comment2.text=\n\ Gets\ an\ array\ of\ strings\ representing\ cardinal\n\ direction\ points\n\ @return\ Array\ of\ direction\ strings\n
+numComments=3

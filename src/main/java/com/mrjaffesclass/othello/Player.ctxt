@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ Player\ object.\ Students\ will\ extend\ this\ class\n\ and\ override\ the\ getNextMove\ method\n\ \n\ @author\ Mr.\ Jaffe\n\ @version\ 1.0\n
+comment1.params=color
+comment1.target=Player(int)
+comment1.text=\n\ Player\ constructor\n\ @param\ color\ \ \ One\ of\ Constants.WHITE\ or\ Constants.BLACK\n
+comment2.params=
+comment2.target=int\ getColor()
+comment2.text=\n\ Gets\ the\ player\ color\n\ @return\ \ \ \ \ \ \ \ Player\ color\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\n\ Gets\ the\ player\ name\n\ @return\ \ \ \ \ \ \ \ Player\ name\n
+comment4.params=board
+comment4.target=com.mrjaffesclass.othello.Position\ getNextMove(com.mrjaffesclass.othello.Board)
+comment4.text=\n\ The\ player\ must\ override\ getNextMove\n\ @param\ board\ Game\ board\n\ @return\ A\ position\ coordinate\ pair\ of\ his/her\ next\ move.\ Returns\ null\n\ \ \ \ \ \ \ \ \ \ if\ no\ move\ is\ available\n
+comment5.params=p
+comment5.target=boolean\ isThisPlayer(com.mrjaffesclass.othello.Player)
+comment5.text=\n\ Are\ this\ player\ and\ the\ passed-in\ player\ the\ same?\n\ @param\ p\ Passed-in\ player\n\ @return\ true\ if\ the\ players\ are\ the\ same\n
+comment6.params=p
+comment6.target=boolean\ isThisPlayer(int)
+comment6.text=\n\ Are\ this\ color\ and\ the\ passed-in\ color\ the\ same?\n\ @param\ p\ Passed-in\ color\ (represented\ as\ an\ integer)\n\ @return\ true\ if\ the\ colors\ (integers)\ are\ the\ same\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\n\ Represents\ a\ square\ on\ the\ checkerboard\n\ \n\ @author\ Mr.\ Jaffe\n\ @version\ 1.0\n
+comment1.params=status
+comment1.target=Square(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Square\n\ @param\ status\ Initial\ status\ of\ the\ square.\ One\ of\ RED,\ BLACK,\ EMPTY\n
+comment2.params=
+comment2.target=int\ getStatus()
+comment2.text=\n\ Get\ current\ status\n\ @return\ Current\ status\n
+comment3.params=status
+comment3.target=void\ setStatus(int)
+comment3.text=\n\ Set\ new\ status\n\ @param\ status\ New\ status\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

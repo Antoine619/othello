@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=OthelloMinimax
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=depth\ isMaximizing
+comment2.target=int\ minimax(int,\ boolean)
+comment3.params=
+comment3.target=int\ evaluate()
+numComments=4
