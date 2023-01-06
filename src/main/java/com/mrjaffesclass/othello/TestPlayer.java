@@ -35,25 +35,34 @@ public class TestPlayer extends Player {
         } else {
             return null;
         }
-        Position upperRight = new Position (0, 7);
+        /*Position upperRight = new Position (0, 7);
         Position upperLeft = new Position (0, 0);
         Position bottomRight = new Position (7, 7);
         Position bottomLeft = new Position (7, 0);
-        if (isLegalMove(board) && board.getPosition(0, 7).getStatus() == Constants.EMPTY){
+        if (isLegalMove(board, new Position(0, 7)) && board.getSquare(this, row, col).getStatus() == Constants.EMPTY){
             return upperRight;
         }
-        if (isLegalMove(board) && board.getPosition(0, 0).getStatus() == Constants.EMPTY) {
+        if (isLegalMove(board, new Position(0, 0)) && board.getSquare(this, row, col).getStatus() == Constants.EMPTY) {
             return upperLeft;
         }
-        if (isLegalMove(board)&& board.getPosition(7, 7).getStatus() == Constants.EMPTY) {
+        if (isLegalMove(board, new Position(7, 7)) && board.getSquare(this, row, col).getStatus() == Constants.EMPTY) {
             return bottomRight;
         }
-        if (isLegalMove(board)&& board.getPosition(7, 0).getStatus() == Constants.EMPTY) {
+        if (isLegalMove(board, new Position(7, 0)) && board.getSquare(this, row, col).getStatus() == Constants.EMPTY) {
             return bottomLeft;
+        }*/
+    } 
+    
+    public int minimax(Board board){
+        int eval;
+        int max_depth = Integer.MIN_VALUE;
+        int depth;
+        ArrayList possibleMoves = new ArrayList<Position>();
+        if (depth = 0 || board.) {
+            return eval(board);
         }
     }
     
-
     /**
      * Is this a legal move?
      * @param player Player asking
