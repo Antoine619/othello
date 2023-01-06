@@ -35,19 +35,25 @@ public class TestPlayer extends Player {
         } else {
             return null;
         }
-    }
-    
-    public Position (Board board) {
-        upperRight = new Position (0, 7);
-        upperLeft = new Position (0, 0);
-        bottomRight = new Position (7, 7);
-        bottomLeft = new Position (7, 0);
-        if (isLegalMove(Board )){
+        Position upperRight = new Position (0, 7);
+        Position upperLeft = new Position (0, 0);
+        Position bottomRight = new Position (7, 7);
+        Position bottomLeft = new Position (7, 0);
+        if (isLegalMove(board) && board.getPosition(0, 7).getStatus() == Constants.EMPTY){
             return upperRight;
         }
-        
+        if (isLegalMove(board) && board.getPosition(0, 0).getStatus() == Constants.EMPTY) {
+            return upperLeft;
+        }
+        if (isLegalMove(board)&& board.getPosition(7, 7).getStatus() == Constants.EMPTY) {
+            return bottomRight;
+        }
+        if (isLegalMove(board)&& board.getPosition(7, 0).getStatus() == Constants.EMPTY) {
+            return bottomLeft;
+        }
     }
     
+
     /**
      * Is this a legal move?
      * @param player Player asking
